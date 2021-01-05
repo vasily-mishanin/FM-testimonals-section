@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FM-testimonals-section/static/css/main.05f38d20.chunk.css",
+    "main.js": "/FM-testimonals-section/static/js/main.126bafe4.chunk.js",
+    "main.js.map": "/FM-testimonals-section/static/js/main.126bafe4.chunk.js.map",
+    "runtime-main.js": "/FM-testimonals-section/static/js/runtime-main.5dcdeefe.js",
+    "runtime-main.js.map": "/FM-testimonals-section/static/js/runtime-main.5dcdeefe.js.map",
+    "static/js/2.b6753b0e.chunk.js": "/FM-testimonals-section/static/js/2.b6753b0e.chunk.js",
+    "static/js/2.b6753b0e.chunk.js.map": "/FM-testimonals-section/static/js/2.b6753b0e.chunk.js.map",
+    "static/js/3.04fb9834.chunk.js": "/FM-testimonals-section/static/js/3.04fb9834.chunk.js",
+    "static/js/3.04fb9834.chunk.js.map": "/FM-testimonals-section/static/js/3.04fb9834.chunk.js.map",
+    "index.html": "/FM-testimonals-section/index.html",
+    "static/css/main.05f38d20.chunk.css.map": "/FM-testimonals-section/static/css/main.05f38d20.chunk.css.map",
+    "static/js/2.b6753b0e.chunk.js.LICENSE.txt": "/FM-testimonals-section/static/js/2.b6753b0e.chunk.js.LICENSE.txt",
+    "static/media/Grid.module.css": "/FM-testimonals-section/static/media/bg-pattern-quotation.6b460e30.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5dcdeefe.js",
+    "static/js/2.b6753b0e.chunk.js",
+    "static/css/main.05f38d20.chunk.css",
+    "static/js/main.126bafe4.chunk.js"
+  ]
+}
