@@ -1,0 +1,94 @@
+.gridMain {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+  gap: 1.5em;
+  padding: 3.5em 1.3em;
+  background-color: hsl(210, 46%, 95%);
+  font-size: 13px;
+}
+
+.gridMain > div:nth-child(1) {
+  background-color: hsl(263, 55%, 52%);
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 85% 0%;
+  background-size: 8em 9.5em;
+  color: hsl(210, 46%, 95%);
+}
+.gridMain > div:nth-child(2) {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(210, 46%, 95%);
+}
+
+.gridMain > div:nth-child(3) {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.gridMain > div:nth-child(4) {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(210, 46%, 95%);
+}
+
+.gridMain > div:nth-child(5) {
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* Styles for certain tracks of the grid */
+.gridMain > div:nth-child(2n + 1) {
+  box-shadow: 20px 20px 50px hsl(217, 19%, 80%);
+}
+
+.gridMain > div:nth-child(1) img {
+  border: 3px solid hsl(263, 55%, 72%);
+}
+
+.gridMain > div:nth-child(4) img {
+  border: 3px solid hsl(263, 55%, 52%);
+}
+
+/* MEDIA */
+
+@media (min-width: 640px) {
+  .gridMain {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1280px) {
+  .gridMain {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 7em;
+  }
+
+  .gridMain > div:nth-child(1) {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+  .gridMain > div:nth-child(2) {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .gridMain > div:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .gridMain > div:nth-child(4) {
+    grid-column: 2/4;
+    grid-row: 2;
+  }
+
+  .gridMain > div:nth-child(5) {
+    grid-column: 4;
+    grid-row: 1/3;
+  }
+}
+
+@media (min-width: 1640px) {
+  .gridMain {
+    padding: 7em 15em;
+    font-size: 18px;
+  }
+}
